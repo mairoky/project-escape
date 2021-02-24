@@ -1,0 +1,381 @@
+/*fonts*/
+@font-face{
+	src: url(../fonts/cubano/Cubano.ttf);
+	font-family: Cubano;
+}
+
+/*fonts*/
+body{
+	margin: 0;
+	padding: 0;
+}
+/*header start*/
+header{
+	background-image: url(../images/escape.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.container{
+	margin: 0 auto;
+	width: 75%;
+	border: 1px solid;
+	
+}
+.header-content{
+	margin-top: 50px;
+	overflow: hidden;
+}
+.logo{
+	margin-top: 7px;
+	float: left;
+	width: 20%;
+	/*border: 1px solid;*/
+}
+.logo img{
+
+}
+.logo a{
+	display: inline-block;
+	font-family: Cubano;
+	font-weight: 400;
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.menu{
+	float: right;
+	width: 60%;
+	/*border: 1px solid;*/
+
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+	padding: 0 20px;
+	display: inline-block;
+	text-decoration: none;
+	/*font-family: brandon-grotesque-regular;*/
+	font-weight: 400;
+	font-size: 18px;
+	color: white;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+
+}
+.menu ul li a:hover{
+	color: #777777;
+}
+/*title content start*/
+.h-content{
+	margin-top: 150px;
+	margin-bottom: 120px;
+}
+.t-content{
+	/*border: 1px solid red;*/
+	text-align: center;
+}
+.t-content p{
+	margin: 0;
+	font-size: 32px;
+	color: white;
+}
+.t-content h1{
+	margin-top: 50px;
+	margin-bottom: 80px;
+	font-size: 60px;
+	color: white;
+}
+.t-content button{
+	width: 240px;
+	height: 60px;
+	/*outline: none;*/
+	border: 2px solid white;
+	background: transparent;
+	font-size: 18px;
+	color: white;
+	cursor: pointer;
+}
+.t-content button:hover{
+	border: 2px solid black;
+
+}
+/*title content end*/
+/*header end*/
+/*web section start*/
+.web{}
+.web-content{
+	/*border: 1px solid;*/
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 40px;
+	margin-right: 40px;
+	overflow: hidden;
+}
+.w-content{
+	float: left;
+	width: 60%;
+}
+.wp1{
+	margin: 0;
+	padding: 0;
+	font-size: 60px;
+	color: #222222;
+}
+.wp2{
+	margin: 40px 0;
+	font-size: 18px;
+	color: #777777;
+}
+.wp3{
+	font-size: 18px;
+	color: #777777;
+}
+.w-image{
+	width: 35%;
+	float: right;
+	position: relative;
+}
+.w-image img{
+	position: absolute;
+	right: 0;
+	top: 20px;
+}
+/*web section end*/
+/*identity section start*/
+.identity{
+	background-color: #FAFAFA;
+}
+.i-image{
+	width: 35%;
+	float: left;
+}
+.i-image img{
+	margin-top: 35px;
+}
+.i-content{
+	width: 60%;
+	float: right;
+}
+/*identity section end*/
+/*more services start*/
+.services{}
+.more-services{
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+.more-services:last-child{
+	margin-bottom: 0;
+}
+.one{
+	float: left;
+	width: 45%;
+	overflow: hidden;
+}
+.two{
+	float: right;
+	width: 45%;
+}
+.m-img{
+	width: 15%;
+	float: left;
+}
+.m-img img{
+	width: 100%;
+}
+.m-text{
+	width: 80%;
+	float: right;
+}
+.m-text h3{
+	margin-top: 0;
+}
+.m-text p{
+	font-size: 18px;
+	margin-bottom: 0;
+	color: #777777;
+}
+/*more services end
+/*clients section start*/
+/*testimony section start*/
+.clients{
+	background-color: #FAFAFA;
+}
+.c-content{
+	border: 1px solid;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.c-text{
+	text-align: center;
+}
+.testimony-one{
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.one-img{
+	margin: 25px 0;
+	float: left;
+	/*border: 1px solid;*/
+	width: 20%;
+}
+.one-img img{
+	width: 100%;
+}
+.one-quote{
+	margin-top: 50px;
+	margin-left: 30px;
+	margin-right: 50px;
+	padding: 30px 50px;
+	float: right;
+	border: 1px solid;
+	width: 60%;
+	/*text-align: center;*/
+	background-color: #FFF;
+
+}
+.one-quote .title{
+	font-size: 18px;
+	color: #777777;
+}
+.one-quote .author{
+	font-size: 18px;
+	color: #7690c5;
+}
+.testimony-two{
+	/*border: 1px solid;*/
+	overflow: hidden;
+}
+.two-quote{
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 30px;
+	padding: 30px 50px;
+	float: left;
+	border: 1px solid;
+	width: 60%;
+	background-color: #FFF;
+}
+.two-quote .title{
+	font-size: 18px;
+	color: #777777;
+}
+.two-quote .author{
+	font-size: 18px;
+	color: #7690c5;
+}
+.two-img{
+	margin: 25px 0;
+	width: 20%;
+	float: right;
+	/*border: 1px solid;*/
+	
+
+}
+.two-img img{
+	width: 100%;
+
+}
+/*testimony section start*/
+/*logo section start*/
+.c-logo{
+	/*min-height: 160px;*/
+}
+.logo-container{
+	/*width: 70%;*/
+	margin: 60px 150px;
+	/*text-align: center;*/
+	overflow: hidden;
+}
+.logo-one{
+	margin: 0 20px;
+	/*width: 25%;*/
+	float: left;
+}
+.logo-one img{
+	/*width: 100%;*/
+}
+/*.logo-one:first-child{
+	margin-left: 0;
+}
+.logo-one:last-child{
+	margin-right: 0;
+}*/
+/*logo section end*/
+/*team section start*/
+.team{
+	background-color: #111111;
+}
+.team-text{
+	text-align: center;
+}
+.tp1{
+	margin: 0;
+	padding: 0;
+	font-size: 60px;
+	color: #ffffff;
+}
+.tp2{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	color: #777777;
+}
+.team-member{
+	/*border: 1px solid red;*/
+	margin: 30px 0;
+	padding: 30px;
+	overflow: hidden;
+	text-align: center;
+}
+.t1-info{
+	width: 32%;
+	float: left;
+}
+.t1-img{
+	width: 80%;
+	margin: 0 auto;
+}
+.t1-img img{
+	width: 100%;
+}
+.t1-text{
+	color: white;
+	
+}
+.t1-text .t1p{
+	font-size: 18px;
+	font-weight: 700;
+
+}
+.t1-social{}
+
+.t2-info{
+	margin: 0 19px;
+	width: 32%;
+	float: left;
+}
+.t3-info{
+	width: 32%;
+	float: left;
+}
+.team-text2{
+	margin: 0 auto;
+	width: 50%;
+	text-align: center;
+
+}
+.tp3{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	color: #777777;
+}
+/*team section end
